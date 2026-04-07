@@ -1,0 +1,25 @@
+# Secrets and credentials
+.env
+*.key
+*.pem
+*.crt
+credentials/
+vault-password
+
+# Ansible
+*.retry
+ansible/inventory/host_vars/*/vault.yml
+
+# 1Password
+.op/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
