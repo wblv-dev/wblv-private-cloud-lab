@@ -1,18 +1,18 @@
 # WBLV Private Cloud Lab
 
-A full SOC lab built from an empty rack. Services generate real telemetry for detection engineering — every bit of day-to-day use feeds the security lifecycle.
+A full SOC lab built from an empty rack. Services generate real telemetry for detection engineering, every bit of day-to-day use feeds the security lifecycle.
 
 **[Documentation →](https://wellbelove.org/wblv-private-cloud-lab/)**
 
 ## What This Is
 
-The household gets real services that improve quality of life. I get a technical SOC lab. They co-exist — all secure, all under one roof.
+The household gets real services that improve quality of life. I get a technical SOC lab. They co-exist, all secure, all under one roof.
 
-The goal: write KQL in Microsoft Sentinel against real, enriched data from infrastructure I own and operate.
+The end goal: write KQL in Microsoft Sentinel against real, enriched data from infrastructure I own and operate.
 
 ## What's In This Repo
 
-This repo stores code — Ansible playbooks, Sentinel analytics rules, IOC reference data. It is not a project tracker or documentation site.
+This repo only stores logic/code, Ansible playbooks, Sentinel analytics rules, IOC reference data. It is not a project tracker or documentation site.
 
 ```
 ansible/          Inventory, roles, playbooks
